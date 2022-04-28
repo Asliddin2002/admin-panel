@@ -1,0 +1,69 @@
+.list{
+    display: flex;
+
+    .list-container{
+        flex:6;
+
+        .addNew{
+            padding: 20px 20px 0 0;
+
+            .btn{
+                width: 150px;
+                padding: 5px ;
+                text-align: center;
+                border:1px solid green;
+                color:green;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius:5px;
+                margin-left: auto;
+            }
+        }
+
+        .sellRenderStatus{
+            padding:5px 10px ;
+            border-radius: 5px;
+        
+            &.Aktiv{
+                background-color: rgb(0, 128, 0, .2);
+                color: green;
+            }
+            &.Passiv{
+                background-color: rgb(255, 192, 203, .2);
+                color: pink;
+            }
+
+            
+        }
+
+
+        .datatable{
+            margin:25px;
+
+            .action{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+
+
+                .korish-btn{
+                    padding: 5px 8px;
+                    border: 1px solid rgb(0, 174, 255);
+                    border-radius: 8px;
+                    color: rgb(0, 174, 255);
+                    margin-right: 20px;
+                    cursor: pointer;
+                }
+                .ochirish-btn{
+                    padding: 5px 8px;
+                    border: 1px solid rgb(226, 80, 80);
+                    border-radius: 8px;
+                    color: rgb(226, 80, 80);
+                    cursor:pointer;
+                }
+            }
+
+        }
+    }
+    
+}

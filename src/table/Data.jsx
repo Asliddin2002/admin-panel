@@ -1,0 +1,42 @@
+export const  Row = [
+    {id:1,
+    product:"iPhone 13 Pro Max",
+    img:"https://images.unsplash.com/photo-1632633173522-47456de71b76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    customer:"Abu Bakir",
+    amount: 1259,
+    method: "Naxt pulda",
+    status: "Tasdiqlangan"
+    },
+    {id:2,
+    product:"iPhone 12 Pro Max",
+    img:"https://images.unsplash.com/photo-1617997455403-41f333d44d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    customer:"Umar",
+    amount: 1059,
+    method: "Naxt pulda",
+    status: "Kutilmoqda"
+    },
+    {id:3,
+    product:"Galaxy S22 Ultra",
+    img:"https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    customer:"Usmon",
+    amount: 1419,
+    method: "Naxt pulda",
+    status: "Tasdiqlangan"
+    },
+    {id:4,
+    product:"iPhone 13 ",
+    img:"https://images.unsplash.com/photo-1647503380147-e075b24f4cbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    customer:"Ali",
+    amount: 1259,
+    method: "Naxt pulda",
+    status: "Tasdiqlangan"
+    },
+    {id:5,
+    product:"Galaxy S20 Ultra",
+    img:"https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    customer:"Asliddin",
+    amount: 989,
+    method: "Naxt pulda",
+    status: "Kutilmoqda"
+    },
+]

@@ -1,0 +1,70 @@
+.navbar{
+    height: 58px;
+    border-bottom: .2px solid rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+
+    .wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2rem;
+    
+        .search{
+            border:1px solid #999;
+            border-radius: 5px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            padding: 5px 10px;
+
+            input{
+                border:none;
+                outline: none;
+                font-size: 16px;
+                background-color:transparent;
+                
+            }
+            .icon{
+                color: #777;
+                cursor: pointer;
+            }
+        }
+        .nav-icons{
+            display: flex;
+            
+            .icon-wrapper{
+                margin-right: 25px;
+                display: flex;
+                align-items: center;
+                color:#666;
+                cursor: pointer;
+                position: relative;
+
+                .badge{
+                    width: 15px;
+                    height: 15px;
+                    border-radius:50%;
+                    background-color:red;
+                    color:#fff;
+                    font-size: 10px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items:center;
+                    justify-content: center;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                }
+            }
+            .avatar{
+                width: 30px;
+                height: 30px;
+                background-color: purple;
+                border-radius: 50%;
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}

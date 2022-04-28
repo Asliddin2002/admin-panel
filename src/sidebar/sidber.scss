@@ -1,0 +1,94 @@
+.sidebar{
+    
+    min-height: 100vh;
+    flex: 1;
+    // background-color:white;
+    border-right: .5px solid rgb(0, 0, 0, .2);
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo{
+            font-size: 25px;
+            color: purple;
+            
+        }
+    }
+    hr{
+        color: #666;
+    }
+    .main{
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+    
+            p{
+                font-size: 12px;
+                font-weight: 600;
+                color:#999;
+                margin-left: 15px;
+    
+            }
+            .active{
+                color:crimson;
+
+                .icon{
+                    color:crimson;
+                }
+            }
+            li{
+                padding: 8px 25px;
+                cursor: pointer;
+                display: flex;
+                margin: 10px 0;
+                &:hover{
+                    background-color:whitesmoke;
+                }
+                
+
+                .icon{
+                    margin-left: 5px 15px;
+                    font-size: 20px;
+                    color:blueviolet;
+                    
+                }
+                span{
+                    font-size: 15px;
+                    margin-left: 15px ;
+                    font-weight: 600;
+                    color:#888;
+                }
+
+            }
+
+    }
+   
+    }
+    .bottoms{
+        margin-top: 20px;
+        .colorOption{
+            display: flex;
+            margin-left: 20px;
+
+            .whites{
+                background-color:#fff;                width: 20px;
+                height: 20px;
+                border-radius: 5px;
+                border: .3px solid grey;
+                cursor:pointer;
+                        }
+            .blacks{
+                cursor: pointer;
+                background-color:#000;
+                width: 20px;
+                height: 20px;
+                border-radius: 5px;
+                border: .3px solid grey;
+                margin-left: 15px;
+                        }
+        }
+    }
+}

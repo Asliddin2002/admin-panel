@@ -1,0 +1,39 @@
+.table{
+    margin:25px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    padding: 25px;
+    border-radius: 10px;
+
+    .title{
+        font-size: 22px;
+        font-weight: 600;
+        color: gray;
+        margin-bottom: 15px;
+    }
+    .about-product{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .img{
+            width: 50px;
+            border-radius:50%;
+            min-height: 50px;
+    }
+    
+    }
+    .status{
+        padding: 8px;
+        border-radius:5px;
+        font-weight: 500;
+        font-size: 16px;
+
+        &.Tasdiqlangan{
+            background-color:rgb(0, 0, 255, .2);
+            color:blue;
+        }
+        &.Kutilmoqda{
+            background-color:rgb(220, 20, 60, .2);
+            color:red;
+        }
+    }
+}

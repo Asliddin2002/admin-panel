@@ -1,0 +1,14 @@
+.chart{
+    margin: 10px ;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    padding: 15px;
+    flex: 4;
+
+    span{
+        font-size: 22px;
+                font-weight: 600;
+                color: gray;
+    }
+}
